@@ -1,0 +1,9 @@
+div{
+    color: white;
+    background-color: crimson;
+    width: 100%;
+}
+table,th,td{
+    border: solid black 2px;
+    border-collapse: collapse;
+}
