@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+.logo{
+    padding: 15
+px
+ 0 15
+px
+ 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 10
+px
+;
+    min-height: 50
+px
+;
+    margin-bottom: 10
+px
+;
+    position: relative;
+    z-index: 3;
+    text-align: center;
+}
+.logoimg{
+    height:100px;
+    width: auto;
+}
+
+.nav {
+    background-color: blue; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    
+  }
+  .nav li a{
+      color: white;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .nav li a:hover{
+    color: red;
+  }
+.wasd{
+    display: flex;
+    border: solid blue 3px;
+    border-radius: 10px;
+   width: 95%;
+   margin: auto
+}
+.textbox{
+    
+    background-color: rgb(46, 116, 209);
+    justify-content: center;
+    flex: 2;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.wasdpic{
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+}
+.wasdpic img{
+    
+    height: 250px;
+    width: auto;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gamesli{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    
+}
+.gcon{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.games{
+    background-color: white;
+    padding: 10px 5px 10px ;
+    margin-bottom: 5px;
+    
+    border-radius: 5px;
+}
+.moregames{
+    background-color: white;
+    padding: 10px 5px 10px ;
+    margin-bottom: 5px;
+    width: 90px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.content{
+    padding: 10px;
+    padding: 0 5px;
+    margin-bottom: 10px ;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.games2{
+    background-color: white;
+   
+    gap: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 0 5px;
+    
+    padding: 20px 15px;
+    
+}
+.collapsible{
+    outline: none;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    border: none;
+    
+}
+.end{
+    background-color: rgb(23, 23, 88);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.end a{
+    color: white;
+    text-decoration: none;
+}
+.conuserguide{
+    border: cyan 2px solid;
+    border-radius: 5px;
+    gap: 5px;
+}
+.imgicon{
+    height: 30px;
+    width: auto;
+    float: right;
+}
