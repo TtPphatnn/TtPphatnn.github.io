@@ -153,3 +153,12 @@ px
     width: auto;
     float: right;
 }
+.gamesupload{
+    margin-left: 15px;
+    background-color: orange;
+    padding: 10px 5px 10px ;
+    margin-bottom: 5px;      
+    border-radius: 5px; 
+    width: 100px;
+    border: 2px solid cyan;
+}
